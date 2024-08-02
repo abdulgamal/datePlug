@@ -23,7 +23,7 @@ class Myfunction extends Model
         $accessToken = $accessToken['access_token'];
 
         $contents = File::get(base_path('googleCredentials.json'));
-        $json = json_decode(json: $contents, associative: true);
+        $json = json_decode($contents, true);
 
         // Log::info($accessToken);
 
