@@ -27,7 +27,8 @@
                 @endforeach
             </div>
 
-            <button class="btn btn-primary my-3 text-white" id="view_video" data-bs-toggle="modal" data-bs-target=".fade" id="btn_videoIntro" rel="{{ $data->intro_video }}">Video Intro</button>
+            <button class="btn btn-primary my-3 text-white" id="view_video" data-bs-toggle="modal" data-bs-target=".fade"
+                id="btn_videoIntro" rel="{{ $data->intro_video }}">Video Intro</button>
 
             <div class="form-row">
                 <div class="form-group col-md-4">

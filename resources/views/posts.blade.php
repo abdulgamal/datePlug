@@ -8,7 +8,7 @@
             <h4>{{ __('app.Posts') }}</h4>
         </div>
         <div class="card-body">
-           <table class="table table-striped w-100" id="postsTable">
+            <table class="table table-striped w-100" id="postsTable">
                 <thead>
                     <tr>
                         <th style="width: 150px"> {{ __('Content') }} </th>
@@ -20,11 +20,11 @@
                         <th style="text-align: right; width: 200px;"> {{ __('Action') }} </th>
                     </tr>
                 </thead>
-            </table> 
+            </table>
         </div>
     </div>
-    
-        <!-- View Post Modal -->
+
+    <!-- View Post Modal -->
     <div class="modal fade" id="viewPostModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -75,5 +75,5 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 @endsection

@@ -1086,7 +1086,7 @@ class UsersController extends Controller
             }
 
             if (count($item->images) > 0) {
-                $image = '<img src="public/storage/' . $item->images[0]->image . '" width="50" height="50">';
+                $image = '<img src="storage/' . $item->images[0]->image . '" width="50" height="50">';
             } else {
                 $image = '<img src="http://placehold.jp/150x150.png" width="50" height="50">';
             }
@@ -1183,7 +1183,7 @@ class UsersController extends Controller
             }
 
             if (count($item->images) > 0) {
-                $image = '<img src="public/storage/' . $item->images[0]->image . '" width="50" height="50">';
+                $image = '<img src="storage/' . $item->images[0]->image . '" width="50" height="50">';
             } else {
                 $image = '<img src="http://placehold.jp/150x150.png" width="50" height="50">';
             }
@@ -1279,7 +1279,7 @@ class UsersController extends Controller
             }
 
             if (count($item->images) > 0) {
-                $image = '<img src="public/storage/' . $item->images[0]->image . '" width="50" height="50">';
+                $image = '<img src="storage/' . $item->images[0]->image . '" width="50" height="50">';
             } else {
                 $image = '<img src="http://placehold.jp/150x150.png" width="50" height="50">';
             }
